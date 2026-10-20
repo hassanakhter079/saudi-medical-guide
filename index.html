@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- WebCraft Brand & Favicon -->
+  <link rel="icon" type="image/png" href="data:image/png;base64,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">
+  <link rel="apple-touch-icon" href="data:image/png;base64,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">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saudi Arabia Medical Licensing Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0D1F3C;
+    --teal: #00897B;
+    --teal-light: #E0F2F1;
+    --teal-mid: #80CBC4;
+    --gold: #C9A84C;
+    --gold-light: #FFF8E7;
+    --red: #C0392B;
+    --red-light: #FDECEA;
+    --bg: #F7F9FC;
+    --white: #FFFFFF;
+    --gray: #6B7280;
+    --border: #E2E8F0;
+    --text: #1A2332;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: var(--navy);
+    padding: 56px 40px 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -80px; right: -80px;
+    width: 320px; height: 320px;
+    background: radial-gradient(circle, rgba(0,137,123,0.3) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; left: 10%;
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(201,168,76,0.15) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(0,137,123,0.25);
+    border: 1px solid rgba(0,137,123,0.5);
+    color: var(--teal-mid);
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(28px, 5vw, 48px);
+    color: var(--white);
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+  .hero h1 span { color: var(--gold); }
+  .hero p {
+    color: rgba(255,255,255,0.6);
+    font-size: 15px;
+    max-width: 560px;
+  }
+
+  /* PROGRESS BAR */
+  .progress-bar-wrap {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .progress-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--navy);
+    white-space: nowrap;
+  }
+  .progress-track {
+    flex: 1;
+    height: 8px;
+    background: var(--border);
+    border-radius: 99px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--teal), var(--gold));
+    border-radius: 99px;
+    transition: width 0.4s ease;
+    width: 0%;
+  }
+  .progress-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    color: var(--teal);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  /* MAIN LAYOUT */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  /* OVERVIEW CARDS */
+  .overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 14px;
+    margin-bottom: 48px;
+  }
+  .overview-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 16px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .overview-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  }
+  .ov-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: var(--teal);
+    font-weight: 700;
+  }
+  .ov-label {
+    font-size: 12px;
+    color: var(--gray);
+    margin-top: 2px;
+    font-weight: 500;
+  }
+  .ov-val {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-top: 6px;
+  }
+
+  /* SECTION */
+  .section {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    margin-bottom: 24px;
+    overflow: hidden;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 22px 24px;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-header:hover { background: rgba(0,137,123,0.02); }
+  .step-badge {
+    width: 36px; height: 36px;
+    border-radius: 10px;
+    background: var(--teal);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .step-badge.warn { background: var(--gold); }
+  .step-badge.danger { background: var(--red); }
+  .section-title {
+    flex: 1;
+  }
+  .section-title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: var(--navy);
+    font-weight: 700;
+  }
+  .section-title p {
+    font-size: 12px;
+    color: var(--gray);
+    margin-top: 2px;
+  }
+  .section-meta {
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .cost-pill {
+    display: inline-block;
+    background: var(--teal-light);
+    color: var(--teal);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .cost-pill.gold { background: var(--gold-light); color: #8B6914; }
+  .toggle-icon {
+    font-size: 18px;
+    color: var(--gray);
+    transition: transform 0.3s;
+    margin-left: 8px;
+  }
+  .section.collapsed .toggle-icon { transform: rotate(-90deg); }
+  .section-body {
+    padding: 24px;
+  }
+  .section.collapsed .section-body { display: none; }
+
+  /* SUBSECTION */
+  .subsection {
+    margin-bottom: 24px;
+  }
+  .subsection:last-child { margin-bottom: 0; }
+  .subsection h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--teal);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--teal-light);
+  }
+
+  /* INFO TABLE */
+  .info-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .info-table tr:nth-child(odd) td:first-child { background: var(--teal-light); }
+  .info-table tr:nth-child(even) td:first-child { background: #F0FAFA; }
+  .info-table td {
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+  }
+  .info-table td:first-child {
+    font-weight: 600;
+    width: 38%;
+    color: var(--navy);
+  }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+    border-radius: 6px;
+    padding-left: 4px;
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .checklist li.checked .item-text {
+    text-decoration: line-through;
+    color: var(--gray);
+  }
+  .checklist li.checked { opacity: 0.7; }
+  .check-box {
+    width: 20px; height: 20px;
+    border: 2px solid var(--teal);
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-top: 1px;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.15s;
+    background: white;
+  }
+  .check-box.checked {
+    background: var(--teal);
+  }
+  .check-box::after {
+    content: '';
+    width: 5px; height: 9px;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg) translateY(-1px);
+    display: none;
+  }
+  .check-box.checked::after { display: block; }
+  .item-text {
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.5;
+    flex: 1;
+  }
+  .item-text .step-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    background: var(--navy);
+    color: white;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+  }
+
+  /* WARNING BOX */
+  .warning-box {
+    background: var(--gold-light);
+    border: 1px solid rgba(201,168,76,0.4);
+    border-left: 4px solid var(--gold);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  .warning-box strong { color: #7A5A00; }
+  .warning-box p { color: #6B4A00; margin-top: 4px; }
+
+  .danger-box {
+    background: var(--red-light);
+    border: 1px solid rgba(192,57,43,0.3);
+    border-left: 4px solid var(--red);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  .danger-box strong { color: var(--red); }
+  .danger-box p { color: #7B241C; margin-top: 4px; line-height: 1.6; }
+
+  .info-box {
+    background: #EFF6FF;
+    border: 1px solid #BFDBFE;
+    border-left: 4px solid #3B82F6;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #1E40AF;
+  }
+
+  /* SUBJECT TABLE */
+  .subject-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .subject-table th {
+    background: var(--navy);
+    color: white;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .subject-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .subject-table tr:nth-child(even) td { background: var(--bg); }
+  .bar-wrap {
+    width: 120px;
+    height: 8px;
+    background: var(--border);
+    border-radius: 99px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  .bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--teal), var(--teal-mid));
+    border-radius: 99px;
+  }
+
+  /* TIMELINE */
+  .timeline { position: relative; padding-left: 28px; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 8px; top: 8px; bottom: 8px;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--teal), var(--gold));
+  }
+  .tl-item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .tl-dot {
+    position: absolute;
+    left: -24px; top: 4px;
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--teal);
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--teal);
+  }
+  .tl-when {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--teal);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+  }
+  .tl-what {
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.5;
+  }
+
+  /* CALCULATOR */
+  .calc-section {
+    background: var(--navy);
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 32px;
+    color: white;
+  }
+  .calc-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+  .calc-section > p {
+    color: rgba(255,255,255,0.5);
+    font-size: 13px;
+    margin-bottom: 28px;
+  }
+  .calc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  @media(max-width: 600px) { .calc-grid { grid-template-columns: 1fr; } }
+  .calc-item {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .calc-item label {
+    display: block;
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  .calc-item .sar-val {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    color: var(--teal-mid);
+    margin-bottom: 4px;
+  }
+  .calc-item .include-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .calc-item .include-toggle input { accent-color: var(--teal-mid); cursor: pointer; }
+  .calc-item .include-toggle span { font-size: 12px; color: rgba(255,255,255,0.4); }
+
+  .exchange-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .exchange-row label { font-size: 13px; color: rgba(255,255,255,0.6); }
+  .exchange-row input {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: white;
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    width: 90px;
+    text-align: right;
+  }
+  .exchange-row input:focus { outline: none; border-color: var(--teal-mid); }
+  .exchange-row small { color: rgba(255,255,255,0.3); font-size: 12px; }
+
+  .calc-total {
+    background: linear-gradient(135deg, rgba(0,137,123,0.3), rgba(201,168,76,0.2));
+    border: 1px solid rgba(0,137,123,0.4);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+  }
+  .calc-total .label { font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 8px; }
+  .calc-total .sar-total {
+    font-family: 'DM Mono', monospace;
+    font-size: 18px;
+    color: var(--teal-mid);
+    margin-bottom: 4px;
+  }
+  .calc-total .pkr-total {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: var(--gold);
+    font-weight: 700;
+  }
+  .calc-total .pkr-label { font-size: 14px; color: rgba(255,255,255,0.4); margin-top: 4px; }
+  .calc-note {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  .breakdown-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .breakdown-table th {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: rgba(255,255,255,0.3);
+  }
+  .breakdown-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    color: rgba(255,255,255,0.7);
+  }
+  .breakdown-table td:last-child { text-align: right; font-family: 'DM Mono', monospace; color: var(--teal-mid); }
+  .breakdown-table tr.disabled td { opacity: 0.3; text-decoration: line-through; }
+
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    padding: 32px;
+    color: var(--gray);
+    font-size: 12px;
+  }
+
+  @media(max-width: 600px) {
+    .hero { padding: 36px 20px 32px; }
+    .progress-bar-wrap { padding: 12px 20px; }
+    .container { padding: 24px 16px 60px; }
+    .section-body { padding: 16px; }
+    .overview-grid { grid-template-columns: repeat(2, 1fr); }
+    .calc-section { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-badge">🇸🇦 Complete Licensing Pathway</div>
+  <h1>Saudi Arabia<br><span>Medical Job Guide</span></h1>
+  <p>Step-by-step checklist for Pakistani MBBS doctors — from DataFlow to landing your first job in KSA.</p>
+</div>
+
+<div class="progress-bar-wrap">
+  <span class="progress-label">Overall Progress</span>
+  <div class="progress-track">
+    <div class="progress-fill" id="progressFill"></div>
+  </div>
+  <span class="progress-pct" id="progressPct">0%</span>
+</div>
+
+<div class="container">
+
+  <!-- OVERVIEW CARDS -->
+  <div class="overview-grid">
+    <div class="overview-card">
+      <div class="ov-num">6</div>
+      <div class="ov-label">Steps</div>
+      <div class="ov-val">Total Steps</div>
+    </div>
+    <div class="overview-card">
+      <div class="ov-num">≈3.5L</div>
+      <div class="ov-label">Total Cost</div>
+      <div class="ov-val">PKR Approx.</div>
+    </div>
+    <div class="overview-card">
+      <div class="ov-num">5–7</div>
+      <div class="ov-label">Months</div>
+      <div class="ov-val">After House Job</div>
+    </div>
+    <div class="overview-card">
+      <div class="ov-num">SAR 12K</div>
+      <div class="ov-label">Starting Salary</div>
+      <div class="ov-val">GP in Saudi</div>
+    </div>
+    <div class="overview-card">
+      <div class="ov-num">560/800</div>
+      <div class="ov-label">Passing Score</div>
+      <div class="ov-val">SMLE (~70%)</div>
+    </div>
+  </div>
+
+  <!-- STEP 1: DATAFLOW -->
+  <div class="section" id="sec1">
+    <div class="section-header" onclick="toggleSection('sec1')">
+      <div class="step-badge">1</div>
+      <div class="section-title">
+        <h2>DataFlow Verification</h2>
+        <p>Primary Source Verification — Mandatory first step for all Gulf countries</p>
+      </div>
+      <div class="section-meta">
+        <div class="cost-pill">600–900 SAR</div>
+        <div style="font-size:11px;color:var(--gray);margin-top:4px;">3–4 weeks</div>
+      </div>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+
+      <div class="info-box">
+        <strong>What is DataFlow?</strong> — DataFlow contacts your university, PMC, and hospital directly to confirm your documents are genuine. You cannot book the SMLE or proceed with Mumaris without a positive DataFlow report.
+      </div>
+
+      <div class="subsection">
+        <h3>Required Documents</h3>
+        <ul class="checklist" id="df-docs">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Valid Passport (image size must be under 4.5 MB)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">MBBS Degree Certificate — must be in English or with certified English translation</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Academic Transcripts — all years, English version</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">PMC Full Registration Certificate (not provisional — only after house job completion)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">House Job/Internship Completion Certificate (from hospital)</span></li>
+        </ul>
+      </div>
+
+      <div class="warning-box">
+        <strong>⚠️ Work Experience Verification</strong>
+        <p>DataFlow does NOT officially require experience certificate verification. However, <strong>it is strongly recommended you get it verified anyway</strong> — some employers specifically ask for a DataFlow-verified experience letter during hiring. Better to have it and not need it than to face a delay after receiving a job offer.</p>
+      </div>
+
+      <div class="subsection">
+        <h3>Optional but Recommended</h3>
+        <ul class="checklist" id="df-optional">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">House Job / Internship Completion Certificate — DataFlow-verified (recommended for employer requests)</span></li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>Step-by-Step Process</h3>
+        <ul class="checklist" id="df-steps">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">1</span>Go to <strong>dataflowgroup.com</strong> → click "Start Verification"</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">2</span>Select Country: <strong>KSA</strong> → Organization: <strong>Saudi Commission for Health Specialties (SCFHS)</strong></span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">3</span>Create account using email + phone number (OTP verification required)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">4</span>Upload passport + degree certificates — ensure each file is under 4.5 MB</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">5</span>Select verification package (600–900 SAR range based on number of documents)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">6</span>Enter all details carefully — issuing authority, dates, names EXACTLY as on documents</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">7</span>Complete payment via debit/credit card</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">8</span>Save your <strong>Case Reference Number</strong> — required for Mumaris Plus registration</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">9</span>Wait 3–4 weeks → track progress on DataFlow dashboard</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">10</span>Download your <strong>positive DataFlow report</strong> once issued</span></li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>Key Info</h3>
+        <table class="info-table">
+          <tr><td>Website</td><td>dataflowgroup.com</td></tr>
+          <tr><td>Application time</td><td>10–15 minutes online</td></tr>
+          <tr><td>Processing time</td><td>3–4 weeks</td></tr>
+          <tr><td>Cost</td><td>~300 SAR per document | 600–900 SAR total package</td></tr>
+          <tr><td>Pro tip</td><td>Do it yourself — agents charge significantly more for the same process</td></tr>
+          <tr><td>Report transferability</td><td>Works for UAE, Qatar, Oman too — one-time investment</td></tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- STEP 2: MUMARIS -->
+  <div class="section collapsed" id="sec2">
+    <div class="section-header" onclick="toggleSection('sec2')">
+      <div class="step-badge">2</div>
+      <div class="section-title">
+        <h2>Mumaris Plus Registration (SCFHS)</h2>
+        <p>Professional Classification — requires DataFlow report first</p>
+      </div>
+      <div class="section-meta">
+        <div class="cost-pill">200 SAR</div>
+        <div style="font-size:11px;color:var(--gray);margin-top:4px;">24–72 hrs for eligibility number</div>
+      </div>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+
+      <div class="danger-box">
+        <strong>Prerequisite:</strong>
+        <p>You MUST have a completed positive DataFlow report before submitting your Mumaris application. The system requires your DataFlow Case Reference Number during registration.</p>
+      </div>
+
+      <div class="subsection">
+        <h3>Documents to Upload</h3>
+        <ul class="checklist" id="mu-docs">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">MBBS Degree Certificate</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Academic Transcripts (all years)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">DataFlow Verification Report (for degree)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">DataFlow Verification Report (for PMC license)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">PMC Full Registration Certificate</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Good Standing Certificate from PMC (valid 6 months — time carefully!)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">House Job Completion Certificate (Nishtar, signed + stamped)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Valid Passport copy</span></li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>Step-by-Step Registration</h3>
+        <ul class="checklist" id="mu-steps">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">1</span>Go to <strong>portal.scfhs.org.sa</strong> → click "Sign Up" on Mumaris+</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">2</span>Enter passport details, date of birth, nationality</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">3</span>Fill personal information — name EXACTLY as per passport, religion, marital status</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">4</span>Enter address details — country, address, building number, postal code</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">5</span>Enter permanent professional email + phone number → create password</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">6</span>Verify account via email link → log in → enter OTP</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">7</span>Dashboard → click "Get Your Registration"</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">8</span>Select Profession: Medicine and Surgery | Rank: General Practitioner</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">9</span>Questionnaire — practice discontinuity, penalties: select "No" for all typically</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">10</span>Enter Educational Details — university, degree title, graduation date → upload documents</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">11</span>Enter DataFlow Case Reference Number</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">12</span>Training/Internship — enter start/end dates, upload Nishtar completion certificate</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">13</span>Work Experience — if no post-qualification experience, re-enter internship details</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">14</span>License Details — PMC details, specialization, expiry date → upload PMC certificate + DataFlow report</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">15</span>Final Review — check all data carefully → upload passport → pay 200 SAR</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">16</span>Check "Requests" section to track application status</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">17</span>Receive Eligibility Number by email (within 24–72 hours) — use on Prometric to book exam</span></li>
+        </ul>
+      </div>
+
+      <div class="warning-box">
+        <strong>💡 Support tip:</strong>
+        <p>If you face issues (e.g., university not listed), use the "Tawasul" feature in the portal side menu. Response within 48–72 hours.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- STEP 3: PROMETRIC -->
+  <div class="section collapsed" id="sec3">
+    <div class="section-header" onclick="toggleSection('sec3')">
+      <div class="step-badge">3</div>
+      <div class="section-title">
+        <h2>Prometric Exam (SMLE)</h2>
+        <p>Saudi Medical Licensing Exam — bookable from Pakistan (Lahore, Karachi, Islamabad)</p>
+      </div>
+      <div class="section-meta">
+        <div class="cost-pill">~280–290 USD</div>
+        <div style="font-size:11px;color:var(--gray);margin-top:4px;">Results in 2–6 weeks</div>
+      </div>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+
+      <div class="subsection">
+        <h3>Exam Basics</h3>
+        <table class="info-table">
+          <tr><td>Format</td><td>Multiple Choice Questions (MCQs) — Computer-based</td></tr>
+          <tr><td>Structure</td><td>3 sections × 100 questions = 300 MCQs total (up to 20 may be unscored pilot questions)</td></tr>
+          <tr><td>Duration</td><td>6 hours total | 120 minutes per section + 2 scheduled breaks (45 min total)</td></tr>
+          <tr><td>Passing score</td><td>560 out of 800 (scaled score) — approximately 70%</td></tr>
+          <tr><td>Cost</td><td>~$280–290 USD</td></tr>
+          <tr><td>Results</td><td>Released within 2–6 weeks after the end of the testing window</td></tr>
+          <tr><td>Attempts</td><td>Up to 4 times per year (3 times per year outside Saudi Arabia)</td></tr>
+          <tr><td>Centers in Pakistan</td><td>Lahore, Islamabad, Karachi</td></tr>
+        </table>
+      </div>
+
+      <div class="warning-box">
+        <strong>⚠️ Note on Results Timing</strong>
+        <p>Results are NOT instant. After the testing window closes, SCFHS runs psychometric analysis. Expect your results 2–6 weeks after your exam date — plan your timeline accordingly.</p>
+      </div>
+
+      <div class="subsection">
+        <h3>Subject Distribution (GP) — Official SCFHS Blueprint</h3>
+        <table class="subject-table">
+          <tr><th>Subject</th><th>Weight</th><th>Visual</th></tr>
+          <tr><td>General Medicine (Internal Medicine)</td><td><strong>30%</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:100%"></div></div></td></tr>
+          <tr><td>Pediatrics</td><td><strong>25%</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:83%"></div></div></td></tr>
+          <tr><td>OB/GYN</td><td><strong>25%</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:83%"></div></div></td></tr>
+          <tr><td>General Surgery</td><td><strong>20%</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:67%"></div></div></td></tr>
+          <tr><td>Patient Safety, Ethics & Professionalism</td><td>Integrated across sections</td><td><div class="bar-wrap"><div class="bar-fill" style="width:25%"></div></div></td></tr>
+        </table>
+        <p style="font-size:12px;color:var(--gray);margin-top:8px;">* Always verify the latest blueprint on the official SCFHS website as distributions can be updated.</p>
+      </div>
+
+      <div class="subsection">
+        <h3>Booking Steps</h3>
+        <ul class="checklist" id="pm-steps">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">1</span>Go to <strong>prometric.com</strong> → click "Find My Exam"</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">2</span>Search: "Saudi Commission for Health Specialties"</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">3</span>Use "Locate" to find centers in your city</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">4</span>Select specialty: General Practitioner → search available dates</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">5</span>Click "Schedule" → enter Eligibility ID + first 4 letters of last name</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">6</span>Enter personal details, address, passport info accurately</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">7</span>Pay ~$280–290 USD by card → receive confirmation email</span></li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>Study Resources</h3>
+        <ul class="checklist" id="pm-study">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><strong>First Aid for SMLE</strong> — highly recommended for GPs</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><strong>SCFHS Official Blueprint</strong> — download from SCFHS website for exact subject breakdown</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><strong>CanadaQBank / ExamCure</strong> — for daily MCQ practice (50–100 Qs/day)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><strong>WhatsApp Groups</strong> — join "Pakistani Doctors in Saudi Arabia" for shared materials</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">SCFHS official mock exam (free on portal) — do this in Month 3</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- STEP 4: CLASSIFICATION -->
+  <div class="section collapsed" id="sec4">
+    <div class="section-header" onclick="toggleSection('sec4')">
+      <div class="step-badge">4</div>
+      <div class="section-title">
+        <h2>Professional Classification (SCFHS)</h2>
+        <p>After passing SMLE — get your Classification Certificate via Mumaris Plus</p>
+      </div>
+      <div class="section-meta">
+        <div class="cost-pill">2,000–2,300 SAR</div>
+        <div style="font-size:11px;color:var(--gray);margin-top:4px;">1–2 weeks</div>
+      </div>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+
+      <div class="info-box">
+        This certificate is what employers and visa offices require. You must have it before applying for jobs.
+      </div>
+
+      <div class="subsection">
+        <h3>Process</h3>
+        <ul class="checklist" id="cl-steps">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">1</span>Log in to Mumaris Plus → go to "Requests" → select Classification application</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">2</span>System automatically reflects your passed Prometric result</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">3</span>Pay classification fee (~2,000 SAR for Registrar level)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">4</span>Download your <strong>Classification Certificate</strong> from Mumaris dashboard</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">5</span>Begin applying for jobs — MOH portal, agencies, private hospitals</span></li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>Cost Breakdown by Level</h3>
+        <table class="info-table">
+          <tr><td>Registrar / Senior Registrar</td><td>~2,000 SAR</td></tr>
+          <tr><td>Consultant</td><td>~2,300 SAR</td></tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- STEP 5: DOCUMENT ATTESTATION -->
+  <div class="section collapsed" id="sec5">
+    <div class="section-header" onclick="toggleSection('sec5')">
+      <div class="step-badge warn">5</div>
+      <div class="section-title">
+        <h2>Document Attestation</h2>
+        <p>Done in two phases — some before offer, some after</p>
+      </div>
+      <div class="section-meta">
+        <div class="cost-pill gold">Variable</div>
+        <div style="font-size:11px;color:var(--gray);margin-top:4px;">Parallel to job search</div>
+      </div>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+
+      <div class="subsection">
+        <h3>Phase A — During Job Hunting (Before Offer)</h3>
+        <ul class="checklist" id="att-a">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">University attestation of MBBS degree and transcripts</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">HEC (Higher Education Commission) Pakistan attestation</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">MOFA (Ministry of Foreign Affairs) Pakistan attestation</span></li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>Phase B — After Receiving Job Offer Letter</h3>
+        <ul class="checklist" id="att-b">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Muqeem verification (Saudi employer registration system)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Saudi Embassy attestation of all documents</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- STEP 6: QVP -->
+  <div class="section collapsed" id="sec6">
+    <div class="section-header" onclick="toggleSection('sec6')">
+      <div class="step-badge warn">6</div>
+      <div class="section-title">
+        <h2>QVP — Qualification Verification Program</h2>
+        <p>Final step before visa stamping — Ministry of Human Resources, Saudi Arabia</p>
+      </div>
+      <div class="section-meta">
+        <div class="cost-pill gold">Visa Stage</div>
+        <div style="font-size:11px;color:var(--gray);margin-top:4px;">2–3 weeks</div>
+      </div>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+
+      <div class="info-box">
+        <strong>Purpose:</strong> QVP confirms that the job being offered matches your actual qualifications (e.g., a GP is hired for a GP role, not mislabeled). Required for visa stamping.
+      </div>
+
+      <div class="subsection">
+        <h3>Key Facts</h3>
+        <table class="info-table">
+          <tr><td>Managed by</td><td>Saudi Ministry of Human Resources (PACC)</td></tr>
+          <tr><td>Which degree?</td><td>Only your HIGHEST degree (FCPS/Masters if applicable, otherwise MBBS)</td></tr>
+          <tr><td>University fees?</td><td>None — QVP is a quality check, not traditional verification</td></tr>
+          <tr><td>Processing time</td><td>2–3 weeks</td></tr>
+          <tr><td>Occupation selection</td><td>Select "Chief Physician" for doctors</td></tr>
+        </table>
+      </div>
+
+      <div class="subsection">
+        <h3>Step-by-Step QVP Application</h3>
+        <ul class="checklist" id="qvp-steps">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">1</span>Go to official QVP website → create account with email and password</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">2</span>Verify account via OTP sent to email</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">3</span>Enter profile — First Name, Last Name, Gender, Nationality, Date of Birth</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">4</span>Enter Passport Number + expiry date</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">5</span>Set current residence → Reason of Request: "For Job"</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">6</span>Upload passport copy</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">7</span>Provide digital signature (type your name)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">8</span>Enter university name and full address (include building name and zip code)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">9</span>Educational level: Bachelor's for MBBS | Master's for FCPS/MD — Field: Medicine</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">10</span>Enter enrollment start and end dates exactly as on transcript</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">11</span>Upload Certificate (Transcript) + Award (Degree)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">12</span>Enter exact degree title and award date</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">13</span>Confirm Job Offer Letter → Occupation: "Chief Physician" → enter hospital name</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">14</span>Upload Job Offer Letter</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">15</span>Review all data → check acknowledgement boxes → pay by card</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text"><span class="step-num">16</span>Wait 2–3 weeks → Saudi MFA notified → visa processing begins</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CRITICAL WARNINGS -->
+  <div class="section collapsed" id="sec7">
+    <div class="section-header" onclick="toggleSection('sec7')">
+      <div class="step-badge danger">!</div>
+      <div class="section-title">
+        <h2>Critical Warnings</h2>
+        <p>Common mistakes that cause delays or rejections</p>
+      </div>
+      <div class="section-meta">
+        <div class="cost-pill" style="background:#FDECEA;color:var(--red);">Must Read</div>
+      </div>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+
+      <div class="danger-box">
+        <strong>⛔ Name Consistency — #1 Cause of Rejection</strong>
+        <p>Your name AND father's name must be IDENTICAL on ALL documents — Passport, CNIC, MBBS degree, PMC certificate, transcripts, Nishtar letter. Even a single letter difference can cause visa rejection. Check all documents NOW before submitting anything.</p>
+      </div>
+
+      <div class="subsection">
+        <h3>General Warnings Checklist</h3>
+        <ul class="checklist" id="warn-list">
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Verify name spelling is identical across ALL documents before submitting anything</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Do NOT get Good Standing Certificate from PMC too early — it expires in 6 months</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Do NOT use provisional PMC license — must be full registration (after house job)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Nishtar house job letter must include: job title, start/end dates, role description, signed + stamped</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Use a permanent professional email for ALL platforms — not a temporary one</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Do NOT book Prometric until fully prepared (rescheduling is difficult and may incur fees)</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Save ALL case reference numbers and confirmation emails in a dedicated folder</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Do DataFlow yourself — agents charge significantly more for the exact same process</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Bring SAR 5,000–10,000 cash reserves when landing — first Saudi salary arrives 2–3 months later</span></li>
+          <li><div class="check-box" onclick="toggle(this)"></div><span class="item-text">Check your documents from abroad are in English — if in another language, get certified English translation from the university itself</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TIMELINE -->
+  <div class="section collapsed" id="sec8">
+    <div class="section-header" onclick="toggleSection('sec8')">
+      <div class="step-badge" style="background:var(--navy);">⏱</div>
+      <div class="section-title">
+        <h2>Master Timeline</h2>
+        <p>Realistic 5–7 month roadmap from house job completion to Saudi Arabia</p>
+      </div>
+      <div class="section-meta"></div>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-when">Right Now</div>
+          <div class="tl-what">Start SMLE prep. Collect and scan all documents. Contact university registrar about DataFlow process. Create Mumaris Plus account.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-when">House Job Starts</div>
+          <div class="tl-what">Begin Mumaris Plus profile (don't submit yet). Submit DataFlow for degree + transcripts as soon as documents are ready.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-when">House Job Ends + PMC Full Registration</div>
+          <div class="tl-what">Get Good Standing Certificate from PMC. Get Nishtar completion certificate. Submit full Mumaris application immediately. Push DataFlow to completion.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-when">+1 Month Post House Job</div>
+          <div class="tl-what">DataFlow clears → Book Prometric exam. Continue SMLE prep.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-when">+2–3 Months</div>
+          <div class="tl-what">Sit SMLE → Results released 2–6 weeks after testing window closes → Apply for Classification Certificate on Mumaris upon passing.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-when">+1 Month (after passing)</div>
+          <div class="tl-what">Apply — MOH portal + recruitment agencies + private hospital groups. Start document attestation (HEC + MOFA) in parallel.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-when">+1–2 Months</div>
+          <div class="tl-what">Interview → Job Offer → QVP → Saudi Embassy attestation → Work Visa.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot" style="background:var(--gold);box-shadow:0 0 0 2px var(--gold);"></div>
+          <div class="tl-when" style="color:var(--gold);">🎯 Realistic Total</div>
+          <div class="tl-what"><strong>5–7 months after house job ends to land in Saudi Arabia.</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPENSE CALCULATOR -->
+  <div class="calc-section">
+    <h2>💰 Expense Calculator</h2>
+    <p>Select what applies to you and enter the current PKR/SAR exchange rate</p>
+
+    <div class="exchange-row">
+      <label>Exchange Rate:</label>
+      <span>1 SAR =</span>
+      <input type="number" id="sarRate" value="74" min="1" oninput="calcTotal()">
+      <span>PKR</span>
+      <small style="margin-left:8px;">| 1 USD =</small>
+      <input type="number" id="usdRate" value="278" min="1" oninput="calcTotal()" style="margin-left:6px;">
+      <small>PKR</small>
+    </div>
+
+    <div class="calc-grid" id="calcGrid">
+      <!-- Items injected by JS -->
+    </div>
+
+    <div class="calc-total">
+      <div class="label">Total Estimated Cost</div>
+      <div class="sar-total" id="sarTotal">0 SAR + 0 USD</div>
+      <div class="pkr-total" id="pkrTotal">PKR 0</div>
+      <div class="pkr-label">Pakistani Rupees</div>
+    </div>
+
+    <table class="breakdown-table" id="breakdownTable">
+      <tr><th>Item</th><th>SAR / USD</th><th>PKR</th></tr>
+    </table>
+
+    <div class="calc-note">* Estimates based on current SCFHS/DataFlow/Prometric fee schedules. Actual costs may vary. Always verify fees on official portals before payment. Attestation fees not included as they vary by document count.</div>
+  </div>
+
+  <div class="footer">
+    Saudi Arabia Medical Licensing Guide for Pakistani Doctors · For informational use only · Always verify fees and procedures on official SCFHS, DataFlow, and Prometric portals as requirements may change.
+  </div>
+</div>
+
+<script>
+  const expenses = [
+    { id: 'df_degree', label: 'DataFlow — Degree Verification', sar: 300, usd: 0, note: 'Per document ~300 SAR' },
+    { id: 'df_transcript', label: 'DataFlow — Transcript Verification', sar: 300, usd: 0, note: 'Per document ~300 SAR' },
+    { id: 'df_license', label: 'DataFlow — PMC License Verification', sar: 300, usd: 0, note: 'Recommended' },
+    { id: 'df_exp', label: 'DataFlow — Work Experience (Recommended)', sar: 300, usd: 0, note: 'Optional but advisable' },
+    { id: 'mumaris', label: 'Mumaris Plus Registration', sar: 200, usd: 0, note: 'Fixed SCFHS fee' },
+    { id: 'prometric', label: 'Prometric Exam (SMLE)', sar: 0, usd: 285, note: '~$280–290 USD payment' },
+    { id: 'classification', label: 'SCFHS Classification Certificate', sar: 2000, usd: 0, note: 'Registrar level' },
+    { id: 'reserve', label: 'Cash Reserve (on arrival in Saudi)', sar: 5000, usd: 0, note: 'Salary arrives after 2–3 months' },
+  ];
+
+  let included = {};
+  expenses.forEach(e => included[e.id] = true);
+
+  function buildGrid() {
+    const grid = document.getElementById('calcGrid');
+    grid.innerHTML = '';
+    expenses.forEach(e => {
+      const div = document.createElement('div');
+      div.className = 'calc-item';
+      div.innerHTML = `
+        <label>${e.label}</label>
+        <div class="sar-val">${e.sar > 0 ? e.sar + ' SAR' : ''}${e.usd > 0 ? '$' + e.usd + ' USD' : ''}</div>
+        <small style="color:rgba(255,255,255,0.3);font-size:11px;">${e.note}</small>
+        <div class="include-toggle">
+          <input type="checkbox" id="chk_${e.id}" checked onchange="toggleItem('${e.id}')">
+          <span>Include in total</span>
+        </div>
+      `;
+      grid.appendChild(div);
+    });
+  }
+
+  function toggleItem(id) {
+    included[id] = document.getElementById('chk_' + id).checked;
+    calcTotal();
+  }
+
+  function calcTotal() {
+    const sarRate = parseFloat(document.getElementById('sarRate').value) || 74;
+    const usdRate = parseFloat(document.getElementById('usdRate').value) || 278;
+
+    let totalSar = 0, totalUsd = 0, totalPkr = 0;
+    const tbody = document.getElementById('breakdownTable');
+    const rows = tbody.querySelectorAll('tr.data-row');
+    rows.forEach(r => r.remove());
+
+    expenses.forEach(e => {
+      const inc = included[e.id];
+      const pkr = inc ? (e.sar * sarRate) + (e.usd * usdRate) : 0;
+      if (inc) {
+        totalSar += e.sar;
+        totalUsd += e.usd;
+        totalPkr += pkr;
+      }
+      const tr = document.createElement('tr');
+      tr.className = 'data-row' + (inc ? '' : ' disabled');
+      tr.innerHTML = `
+        <td>${e.label}</td>
+        <td>${e.sar > 0 ? e.sar + ' SAR' : ''}${e.usd > 0 ? ' $' + e.usd : ''}</td>
+        <td>PKR ${Math.round(pkr).toLocaleString()}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    const sarParts = [];
+    if (totalSar > 0) sarParts.push(totalSar + ' SAR');
+    if (totalUsd > 0) sarParts.push('$' + totalUsd + ' USD');
+    document.getElementById('sarTotal').textContent = sarParts.join(' + ') || '—';
+    document.getElementById('pkrTotal').textContent = 'PKR ' + Math.round(totalPkr).toLocaleString();
+  }
+
+  function toggleSection(id) {
+    document.getElementById(id).classList.toggle('collapsed');
+  }
+
+  function toggle(box) {
+    box.classList.toggle('checked');
+    const li = box.closest('li');
+    li.classList.toggle('checked', box.classList.contains('checked'));
+    updateProgress();
+  }
+
+  function updateProgress() {
+    const all = document.querySelectorAll('.check-box');
+    const done = document.querySelectorAll('.check-box.checked');
+    const pct = all.length ? Math.round((done.length / all.length) * 100) : 0;
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  buildGrid();
+  calcTotal();
+  updateProgress();
+</script>
+</body>
+</html>
